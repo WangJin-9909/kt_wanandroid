@@ -45,7 +45,7 @@ dependencies {
     implementation 'androidx.preference:preference:1.1.1'
 
     implementation 'com.github.zhaokaiqiang.klog:library:1.6.0'
-    implementation 'com.orhanobut:logger:2.2.0'
+    //implementation 'com.orhanobut:logger:2.2.0'
 
     // 工具类
     implementation 'com.blankj:utilcode:1.25.9'

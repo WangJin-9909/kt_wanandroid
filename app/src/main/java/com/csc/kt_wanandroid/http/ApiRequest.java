@@ -1,7 +1,7 @@
 package com.csc.kt_wanandroid.http;
 
 import com.csc.core.base.BaseConstant;
-import com.orhanobut.logger.Logger;
+import com.csc.core.util.Logger;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -72,7 +72,7 @@ public class ApiRequest {
             mMessage.append(message.concat("\n"));
             // 请求或者响应结束，打印整条日志
             if (message.startsWith("<-- END HTTP")) {
-                Logger.e(mMessage.toString());
+                //Logger.e(mMessage.toString());
             }
         }
     }

@@ -4,10 +4,7 @@ import androidx.multidex.MultiDex
 import cn.bingoogolapple.swipebacklayout.BGASwipeBackHelper
 import com.csc.core.base.BaseApplication
 import com.csc.core.util.CustomLogCatStrategy
-import com.orhanobut.logger.AndroidLogAdapter
-import com.orhanobut.logger.FormatStrategy
-import com.orhanobut.logger.Logger
-import com.orhanobut.logger.PrettyFormatStrategy
+
 import com.scwang.smartrefresh.layout.SmartRefreshLayout
 import com.scwang.smartrefresh.layout.footer.ClassicsFooter
 import com.scwang.smartrefresh.layout.header.ClassicsHeader
@@ -54,14 +51,14 @@ class MyApplication : BaseApplication() {
      * Logger日志初始化
      * */
     fun initLoggerInfo() {
-        val formatStrategy: FormatStrategy = PrettyFormatStrategy.newBuilder()
+        /*val formatStrategy: FormatStrategy = PrettyFormatStrategy.newBuilder()
             .showThreadInfo(false) //（可选）是否显示线程信息。 默认值为true
             .methodCount(2) // （可选）要显示的方法行数。 默认2
             .methodOffset(7) // （可选）设置调用堆栈的函数偏移值，0的话则从打印该Log的函数开始输出堆栈信息，默认是0
             .logStrategy(CustomLogCatStrategy())
             .tag("cuckoo") //（可选）每个日志的全局标记。 默认PRETTY_LOGGER（如上图）
             .build()
-        Logger.addLogAdapter(AndroidLogAdapter(formatStrategy))
+        Logger.addLogAdapter(AndroidLogAdapter(formatStrategy))*/
     }
 
 }

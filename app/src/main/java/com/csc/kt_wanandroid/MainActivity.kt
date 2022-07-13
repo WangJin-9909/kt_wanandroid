@@ -7,12 +7,12 @@ import android.view.KeyEvent
 import androidx.fragment.app.Fragment
 import com.csc.core.base.BaseActivity
 import com.csc.core.manage.AppManager
+import com.csc.core.util.Logger
 import com.csc.core.util.ToastUtil
 import com.csc.kt_wanandroid.widget.HomeFactory
 import com.csc.kt_wanandroid.widget.TabEntity
 import com.flyco.tablayout.listener.CustomTabEntity
 import com.flyco.tablayout.listener.OnTabSelectListener
-import com.orhanobut.logger.Logger
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
@@ -79,7 +79,7 @@ class MainActivity : BaseActivity() {
             }
 
             override fun onTabReselect(position: Int) {
-                Logger.d(position)
+
             }
         })
         mBottomNavigationBar?.currentTab = currentPosition
