@@ -1,10 +1,7 @@
 # Kt_wanandroid
 
 非常感谢张鸿洋老师提供的开放api！
-
-**一款用kotlin语言基于WanAndroid开放API写的MVP架构的客户端**
-
-[简书地址](https://www.jianshu.com/p/5af779835385)
+非常感谢chenshichun，是从他那里fork来的，在其基础上改进，原始地址：https://github.com/chenshichun/Kt_wanandroid
 
 **Kotlin语言开发，采用MVP架构。**
 
@@ -19,4 +16,3 @@
 * circleimageview
 * SuperTextView
 
-刚学了一礼拜的kotlin，迫不及待写了这个app，如有不对之处，欢迎纠正。
